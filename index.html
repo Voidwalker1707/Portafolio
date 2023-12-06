@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Correa</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+Glagolitic&family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="Name">
+                <h2>Ángel Correa</h2>
+                
+            </div>
+            <div class="menu">
+                <button id="Abrir" class="abrir-menu"><i class="ri-menu-fill"></i></button>
+
+            </div>
+            <div  id="nav" class="navigation-buttons nav">
+                <button class="cerrar-menu" id="cerrar"><i class="ri-close-fill"></i></button>
+                <a href="#about-me">Acerca de mi</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#contact">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    <section id="start" class="main-page">
+        <div class="presentation">
+            <h1>Hola, Soy Angel Correa</h1>
+            <h3>Desarollador web full stack</h3>
+            <a href="#contact" class="anchor-buttons">Contactame</a>
+        </div>
+    </section>
+    <section id="about-me" class="main-page about">
+        <div class="content-design">
+            <h1>Acerca de mi</h1>
+            <div class="about-me">
+                <img src="imgs/Foto1.JPG" alt="Imagen de Angel Correa">
+                <p>Desarrollador web Full Stack, 
+                con dominio de inglés nivel intermedio B2. 
+                Con conocimientos y capacidades para el desarrollo frontend de sitios y aplicaciones web en el diseño UX/UI, 
+                animaciones y consumo de API REST. Manejo de lenguajes de programación tales como: JavaScript, HTML y CSS, 
+                frameworks como: React.js, Bootstrap, Bulma y fundamentos de: Express.js y herramientas VisualStudio Code, 
+                Node.js, PostgreSQL, Mongodb, Canva y Figma. Con habilidades de trabajo en equipo, comunicación asertiva, 
+                creatividad, orientación al detalle y resolución de problemas.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class=" main-page services">
+        <div class="cards">
+            <div>
+                <img src="imgs/webapp.JPG" alt="web-application">
+                <h4>Aplicaciones web</h4>
+                <label for="Sitios-web" class="anchor-buttons details">Ver detalles</label>
+            </div>
+            <div>
+                <img src="imgs/Capture.JPG" alt="Sitios web img">
+                <h4>Sitios web</h4>
+                <label for="Aplicaciones-web" class="anchor-buttons details">Ver detalles</label>
+            </div>
+            <div>
+                <img src="imgs/manteniance.png" alt="mantenimiento web">
+                <h4>Mantenimiento</h4>
+                <label for="Mantenimiento" class="anchor-buttons details">Ver detalles</label>
+            </div>
+        </div>
+
+
+        <input type="checkbox" id="Sitios-web">
+        <div class="container-modal-Sitios-web modal-container">
+            <div class="content-modal">
+                <header>
+
+                    <h2>Servicios</h2>
+                    <div class="btn-cerrar">
+                        <label for="Sitios-web">Cerrar</label>
+                    </div>
+
+                </header>
+                <main>
+
+                    <img src="" alt="...">
+    
+                    <p>
+    
+                    </p>
+                    <a>Descargar CV</a>
+
+                </main>
+                
+            </div>
+        </div>
+
+        <input type="checkbox" id="Aplicaciones-web">
+        <div class="container-modal-Aplicaciones-web modal-container">
+            <div class="content-modal">
+                <header>
+
+                    <h2>Servicios</h2>
+                    <div class="btn-cerrar">
+                        <label for="Aplicaciones-web">Cerrar</label>
+                    </div>
+
+                </header>
+                <main>
+                    <img src="" alt="...">
+
+                    <p>
+
+                    </p>
+                    <a>Descargar CV</a>
+                </main>
+                
+            </div>
+        </div>
+
+
+        <input type="checkbox" id="Mantenimiento">
+        <div class="container-modal-Mantenimiento modal-container">
+            <div class="content-modal">
+                <header>
+
+                    <h2>Servicios</h2>
+                    <div class="btn-cerrar">
+                        <label for="Mantenimiento">Cerrar</label>
+                    </div>
+
+                </header>
+                <main>
+                    <img src="" alt="...">
+
+                    <p>
+
+                    </p>
+                    <a>Descargar CV</a>
+                </main>
+                    
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="projects" class="main-page projects">
+        <div class="main-container">
+            <h1>Mis proyectos</h1>
+            <div class="all-projects">
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Crunchyroll_Logo.png/857px-Crunchyroll_Logo.png" alt="Proyecto Crunchyroll">
+                    <h2>Clon de Crunchyroll</h2>
+                    <label for="Crunchyroll"  class="anchor-buttons details project-button">Ver detalles</button>
+                </div>
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Logo_ATM.png" alt="Cajero automático">
+                    <h2>Cajero automático</h2>
+                    <label for="ATM"  class="anchor-buttons details project-button">Ver detalles</button>
+
+                </div>
+                <div>
+                    <img src="https://cdn.icon-icons.com/icons2/851/PNG/512/Pokedex_tool_icon-icons.com_67529.png" alt="Pokedéx">
+                    <h2>Pokedéx</h2>
+                    <label for="Pokedex"  class="anchor-buttons details project-button">Ver detalles</button>
+                </div>
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/4021/4021651.png" alt="Tienda Online">
+                    <h2>Tienda de ropa online</h2>
+                    <label for="Shop"  class="anchor-buttons details project-button">Ver detalles</button>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" id="Crunchyroll">
+        <div class="container-modal-Crunchyroll modal-container">
+            <div class="content-modal">
+                <header>
+
+                    <h2>bienvenido</h2>
+                    <div class="btn-cerrar">
+                        <label for="Crunchyroll">Cerrar</label>
+                    </div>
+
+                </header>
+                <main>
+                    <img src="" alt="...">
+
+                    <p>
+                        Desarrollo del clon de una página web reconocida: En este proyecto, tuve la responsabilidad de diseñar un clon de la página web “Crunchyroll”, por medio de HTML5 y CSS, diseñe una barra de navegación, un “slider” y las respectivas series y anuncios que se presentan en la página.
+                    </p>
+                    <a>Hola</a>
+                </main>
+            </div>
+        </div>
+
+
+        <input type="checkbox" id="ATM">
+        <div class="container-modal-ATM modal-container">
+            <div class="content-modal">
+                <header>
+
+                    <h2>Cajero automático</h2>
+                    <div class="btn-cerrar">
+                        <label for="ATM">Cerrar</label>
+                    </div>
+
+                </header>
+                <main>
+                    <img src="" alt="...">
+                    <p>Desarrollo de un cajero automático utilizando HTML, CSS y JavaScript, teniendo como resultado un sitio web responsive y con una interfaz sencilla para los usuarios.</p>
+                    <a>Ver GitHub</a>
+                </main>
+            </div>
+        </div>
+
+
+        <input type="checkbox" id="Pokedex">
+        <div class="container-modal-Pokedex modal-container">
+            <div class="content-modal">
+                <header>
+
+                    <h2>Pokedex</h2>
+                    <div class="btn-cerrar">
+                        <label for="Pokedex">Cerrar</label>
+                    </div>
+
+                </header>
+                <main>
+                    <img src="" alt="...">
+                    <p>Desarrollo de una pokédex con React: Para la realización de este proyecto, obtuve los datos, imágenes, tipos y demás atributos de los diferentes pokemones realizando diversas peticiones a la API “poké API” para luego, con estos elementos, crear funcionalidades como un filtro de búsqueda, botones para detalles de los pokemones y diseños responsive con CSS y Bootstrap, se obtuvo un resultado de una página web responsive y SPA</p>
+                    <a>Ver GitHub</a>
+                </main>
+            </div>
+        </div>
+
+
+
+        <input type="checkbox" id="Shop">
+        <div class="container-modal-Shop modal-container">
+            <div class="content-modal">
+                <header>
+
+                    <h2>Tienda de ropa online</h2>
+                    <div class="btn-cerrar">
+                        <label for="Shop">Cerrar</label>
+                    </div>
+
+                </header>
+                <main>
+                    <img src="imgs/Online Shop desktop.JPG" alt="">
+                    <p>Desarrollo de una tienda de ropa online: En esta página, se simula una tienda de ropa, en la que primero se desarrolló una API que almacenará la ropa, los clientes, y las ventas, luego, utilizando React.js, se consumió la API mostrando el catálogo de ropa que viene desde la base de datos y se logró un “Single Page Application” logrando un diseño ágil, fácil de usar y además de eso también se adapta a cualquier dispositivo.</p>
+                    <a>Ver GitHub Backend</a>
+                    <a>Ver GitHub Frontend</a>
+                </main>
+                
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+    
+    <section id="skills" class="main-page technical-skills">
+        <div class="blur-container">
+            <h1>Habilidades Técnicas</h1>
+            <div class="information-container">
+                <div class="skills-information">
+                    <p>JavaScript, HTML, CSS</p>
+                    <p>React.js, Bootstrap, Bulma</p>
+                    <p>Express.js, Node.js, JWT</p>
+                </div>
+                <div class="skills-information">
+                    <p>
+                        Bcrypt, PostgreSQL
+                    </p>
+                    <p> MongoDB, GitHub  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="main-page contact">
+        <form action="">
+            <div id="contact-content">
+                <h1>Contáctame</h1>
+                <label for="name">Nombre</label>
+                <input type="text"id="name" required>
+                <label for="email">Correo</label>
+                <input type="email" id="email" required>
+                <label for="message">Mensaje</label>
+                <textarea name="textarea" id="message" required></textarea>
+                <button class="anchor-buttons">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <a href="#">Proyectos</a>
+                <a href="#">Acerca</a>
+                <a href="#">Habilidades</a>
+            </div>
+            <div class="Logo">
+                <h2>Angel Correa</h2>
+                <p>Desarrollador web full stack</p>
+            </div>
+            <div class="footer-column">
+                <p>GitHub</p>
+                <p>linkedIn</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
