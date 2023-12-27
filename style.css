@@ -442,15 +442,35 @@ section h3{
 }
 
 .information-container{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-auto-rows: 4rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem,1fr));
+    gap: 1rem;
+    padding: 20px;
+    
 }
+
+.item{
+    background-color: #5F748A;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    grid-column: span 1; /* Asegúrate de que cada item ocupe 1 columna */
+    grid-row: span 1;
+
+}
+
+
 
 .blur-container{
     background-color:rgba(36, 55, 73, 0.5);
     padding: 7rem;
     padding-bottom: 20rem;
-    height: 100%;
+    display: flex;
+    margin-bottom: 5rem;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 4rem;
 }
 
 .contact div{
@@ -641,9 +661,9 @@ footer a{
 
 
     }
-    .blur-container{
+/*     .blur-container{
         overflow: hidden;
-    }
+    } */
     .content-modal{
         width: 80%;
     }
@@ -675,23 +695,6 @@ footer a{
 }
 
 
-@media screen and (max-width: 320px){
-    .contact h1{
-        font-size: 2.7em;
-    }
-
-    .main-container h1{
-        font-size: 3em;
-    }
-
-    .all-projects div{
-        width: 15rem ;
-        height: 17rem    ;
-    }
-    .about h1{
-        font-size: 3em;
-    }
-}
 
 
 .abrir-menu, .cerrar-menu{
@@ -740,4 +743,49 @@ footer a{
     }
     
 
+}
+
+@media screen and (max-width: 403px) {
+    .blur-container h1 {
+        display: none;
+    }
+    .blur-container{
+        padding: 2rem;
+        height: 100%;
+        padding-right: 5rem;
+    }
+    .blur-container div{
+        margin-right: 3rem;
+        padding-bottom: 3rem;
+    }
+
+
+}
+
+@media screen and (max-width: 320px){
+    .contact h1{
+        font-size: 2.7em;
+    }
+
+    .main-container h1{
+        font-size: 3em;
+    }
+
+    .all-projects div{
+        width: 15rem ;
+        height: 17rem    ;
+    }
+    .about h1{
+        font-size: 3em;
+    }
+
+    .blur-container div{
+        margin-right: 4rem;
+        padding-bottom: 5rem;
+    }
+    .information-container{
+        gap: 3.5rem
+        ;
+    }
+    
 }
